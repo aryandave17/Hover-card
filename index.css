@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.card1{
+    width:30%;
+    border:2px solid black;
+    margin:50px auto;
+    /* background-color:black; */
+
+}
+
+.card1:hover{
+    background-color:black;
+    color:white;
+}
+
+.card1 img{
+    width:100%;
+}
+
+.img-box{
+    background-image: url(pexels-davide-baraldi-1734341.jpg);
+    background-size: cover;
+    height:300px;
+}
+
+.card1:hover .img-box{
+    background-image:url(pexels-bill-emrich-230794.jpg);
+}
+
+.inner p{
+    color:gray;
+    line-height:50px;
+}
+
+.inner h3{
+    color: gray;
+    padding:20px;
+}
+
+.inner h1{
+    /* color:black; */
+    line-height:50px;
+    font-size:50px;
+    font-weight:700;
+}    
+
+.inner {
+padding:20px;
+}
+
+.inner a{
+    font-weight:600;
+    font-size:20px;
+}
+
